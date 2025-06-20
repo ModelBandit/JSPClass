@@ -1,0 +1,42 @@
+package sec01.ex01;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletResponse;
+
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class ServletClass extends HttpServlet{
+
+
+	@Override
+	public void init() throws ServletException{
+		System.out.println("init 호출");
+	}
+	
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException{
+		System.out.println("doGet 호출");
+		resp.setContentType("text/html;charset=UTF8");
+		
+		// TODO Auto-generated method stub
+		resp.getWriter().append("보아라!!! 우리 딸이 요요하는 모습을!!!").append(req.getContextPath());
+		
+		PrintWriter out = resp.getWriter();
+		out.println("");
+		out.println("<HTML>");
+		out.println("<HEAD><TITLE>판드랄</TITLE></HEAD>");
+		out.println("<BODY><img src='https://i.namu.wiki/i/Z0q6BBh7icgQasJZK0xtw5zwr_icGQPwa7MXbq9dAixtgFEc8HhTL2omb8GbIIAg-y7XLShRh83l9Q_3FsNp_A.webp' ></img></BODY>");
+		out.println("</HTML>");
+	}
+	
+	@Override
+	public void destroy() {
+		System.out.println("destroy 호출");
+	}
+}
