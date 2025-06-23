@@ -1,5 +1,6 @@
 #Tomcat publish data
-#Wed Jun 18 17:26:49 KST 2025
+#Mon Jun 23 11:49:44 KST 2025
 org.eclipse.jst.jee.server\:servletTest=C\:\\apache-tomcat-9.0.106\\wtpwebapps\\servletTest
+org.eclipse.jst.jee.server\:Ch6=C\:\\apache-tomcat-9.0.106\\wtpwebapps\\Ch6
 org.eclipse.jst.jee.server\:CH5=C\:\\apache-tomcat-9.0.106\\wtpwebapps\\CH5
 org.eclipse.jst.jee.server\:FisrtJSP=C\:\\apache-tomcat-9.0.106\\wtpwebapps\\FisrtJSP
