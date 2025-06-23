@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="FisrtJSP">
-        <property name="context-root" value="FisrtJSP"/>
-        <property name="java-output-path" value="/FisrtJSP/build/classes"/>
-    </wb-module>
-</project-modules>
