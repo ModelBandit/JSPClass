@@ -1,7 +1,0 @@
-package sec01.ex01;
-
-import HttpServlet;
-
-public class ChildServlet extends HttpServlet {
-
-}

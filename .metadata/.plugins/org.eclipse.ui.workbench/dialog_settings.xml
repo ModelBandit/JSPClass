@@ -22,6 +22,10 @@
 	</section>
 	<section name="WorkbenchPreferenceDialogSettings">
 		<item key="DIALOG_X_ORIGIN" value="230"/>
-		<item key="DIALOG_Y_ORIGIN" value="98"/>
+		<item key="DIALOG_Y_ORIGIN" value="8"/>
+	</section>
+	<section name="EditorSelectionDialog">
+		<item key="EditorSelectionDialog.STORE_ID_INTERNAL_EXTERNAL" value="false"/>
+		<item key="EditorSelectionDialog.STORE_ID_DESCR" value="org.eclipse.wst.xsd.ui.internal.editor.InternalXSDMultiPageEditor"/>
 	</section>
 </section>

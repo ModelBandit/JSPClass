@@ -77,3 +77,14 @@ Caused by: java.lang.Exception: Resource '/pro06' does not exist.
 	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42) ~[na:na]
 	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38) ~[na:na]
 	... 62 common frames omitted
+2025-06-25 09:20:25,994 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-06-25 09:53:50,131 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-06-25 13:31:15,650 [Worker-75: Debug Source Lookup] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-servlet-api/9.0.106/tomcat-servlet-api-9.0.106-sources.jar
+2025-06-25 13:31:15,713 [Worker-75: Debug Source Lookup] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-servlet-api/9.0.106/tomcat-servlet-api-9.0.106-sources.jar
+2025-06-25 13:44:04,788 [Worker-76: Debug Source Lookup] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-catalina/9.0.106/tomcat-catalina-9.0.106-sources.jar
+2025-06-25 13:44:04,853 [Worker-76: Debug Source Lookup] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-catalina/9.0.106/tomcat-catalina-9.0.106-sources.jar
+2025-06-25 13:44:14,919 [Worker-79: Debug Source Lookup] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-util/9.0.106/tomcat-util-9.0.106-sources.jar
+2025-06-25 13:44:14,941 [Worker-79: Debug Source Lookup] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-util/9.0.106/tomcat-util-9.0.106-sources.jar
+2025-06-25 14:47:14,598 [Worker-96: Debug Source Lookup] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-websocket/9.0.106/tomcat-websocket-9.0.106-sources.jar
+2025-06-25 14:47:14,623 [Worker-96: Debug Source Lookup] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-websocket/9.0.106/tomcat-websocket-9.0.106-sources.jar
+2025-06-26 09:09:08,032 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
