@@ -12,20 +12,15 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class SecondServlet
  */
-@WebServlet("/SecondServlet")
+@WebServlet("/HttpUrlPool")
 public class SecondServlet extends HttpServlet {
 
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		response.setContentType("text/html;charset=utf-8");
-		PrintWriter out = response.getWriter();
 
-		out.println("<html><body>");
-		out.println("sendRedirect를 이용한 redirect 실습입니다.");
-		out.println("</body></html>");
+		doHandle(request, response);
 	}
 
 	/**
@@ -39,9 +34,12 @@ public class SecondServlet extends HttpServlet {
 	private void doHandle(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
 		response.setContentType("text/html;charset=utf-8");
 		PrintWriter out = response.getWriter();
-
+		
+		String address = (String)request.getAttribute("address");
 		out.println("<html><body>");
-		out.println("sendRedirect를 이용한 redirect 실습입니다.");
+		out.println("이름:" + address + "<br>");
+		
+		out.println("dispatcher를 이용한 redirect 실습입니다.");
 		out.println("</body></html>");
 	}
 }
